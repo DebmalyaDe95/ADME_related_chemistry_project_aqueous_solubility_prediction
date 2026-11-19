@@ -1,0 +1,39 @@
+{
+  "data_cleaning": {
+    "rows_loaded": 1128,
+    "rows_after_exact_deduplication": 1128,
+    "rows_used": 1128,
+    "rows_removed": 0
+  },
+  "holdout_fraction": 0.2,
+  "random_state": 42,
+  "split_note": "Random row split, not a chemical scaffold split; performance may be optimistic for novel chemical scaffolds.",
+  "best_random_forest_parameters": {
+    "n_estimators": 200,
+    "min_samples_leaf": 1,
+    "max_features": 0.6,
+    "max_depth": 18
+  },
+  "random_forest_tuning_cv_MAE": 0.6249204763674036,
+  "test_metrics": [
+    {
+      "model": "Mean baseline",
+      "test_MAE": 1.731819270843553,
+      "test_RMSE": 2.1742746139518645,
+      "test_R2": -0.00014102710018626397
+    },
+    {
+      "model": "Ridge regression",
+      "test_MAE": 0.8919377705368455,
+      "test_RMSE": 1.1987955824687875,
+      "test_R2": 0.6959656030247039
+    },
+    {
+      "model": "Tuned random forest",
+      "test_MAE": 0.5957098993852072,
+      "test_RMSE": 0.8817389673450718,
+      "test_R2": 0.8355202182058019
+    }
+  ],
+  "target": "Measured log10 aqueous solubility in mol/L; lower values indicate lower aqueous solubility."
+}

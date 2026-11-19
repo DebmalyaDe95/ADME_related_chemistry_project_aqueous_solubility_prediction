@@ -1,0 +1,29 @@
+{
+  "dataset": "DeepChem MoleculeNet Delaney (ESOL)",
+  "rows_downloaded": 1128,
+  "rows_after_exact_deduplication": 1128,
+  "rows_used": 1128,
+  "rows_removed": 0,
+  "features": [
+    "Minimum Degree",
+    "Molecular Weight",
+    "Number of H-Bond Donors",
+    "Number of Rings",
+    "Number of Rotatable Bonds",
+    "Polar Surface Area"
+  ],
+  "target": "measured log solubility in mols per litre",
+  "target_mean": -3.05010195035461,
+  "target_median": -2.86,
+  "target_std": 2.096441210089345,
+  "target_min": -11.6,
+  "target_max": 1.58,
+  "feature_correlations_with_target": {
+    "Molecular Weight": -0.640189430542465,
+    "Number of Rings": -0.5122792734665373,
+    "Number of Rotatable Bonds": -0.24425560414572153,
+    "Minimum Degree": -0.13044497909235378,
+    "Polar Surface Area": 0.12321000892453365,
+    "Number of H-Bond Donors": 0.20942885750866233
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "DeepChem MoleculeNet Delaney/ESOL",
+  "download_url": "https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/delaney-processed.csv",
+  "documentation": "https://deepchem.readthedocs.io/en/latest/api_reference/moleculenet.html",
+  "original_reference": "Delaney JS. ESOL: Estimating Aqueous Solubility Directly from Molecular Structure. J Chem Inf Comput Sci. 2004. DOI:10.1021/ci034243x",
+  "retrieved_utc": "2026-11-19T08:11:51.328226+00:00",
+  "bytes": 96699,
+  "sha256": "8c06a76f0c6487d29ab0f903e6a7a7139f189ab3c1178f159c8be8964602f189"
+}
